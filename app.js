@@ -23,3 +23,9 @@ let getComputerChoice = () => {
     return "scissors";
   }
 };
+
+const determineWinner = (userChoice, computerChoice) => {
+  if (userChoice === computerChoice) {
+    return "It's a tie!";
+  }
+}
